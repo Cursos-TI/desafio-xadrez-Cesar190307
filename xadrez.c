@@ -27,7 +27,7 @@ int main(){
 
     printf("\n --MOVIMENTO DO BISPO-- \n");
 
-    for (int b = 1; b <= 5; b++)
+    for (int b = 1; b <= 5; b++) //Padrão for (variavel, condição, incremento)
     {
         printf("Cima, Direita\n");
     }
