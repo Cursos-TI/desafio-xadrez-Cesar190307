@@ -3,6 +3,8 @@
 int main(){
 
     int t = 1;
+    int r = 1;
+    int c = 1;
 
     printf("\n --MOVIMENTO DA TORRE-- \n");
 
@@ -13,7 +15,6 @@ int main(){
         t++; // incrementa ate a condição for falsa
     }
 
-    int r = 1;
 
     printf("\n --MOVIMENTO DA RAINHA-- \n");
 
@@ -30,6 +31,17 @@ int main(){
     for (int b = 1; b <= 5; b++) //Padrão for (variavel, condição, incremento)
     {
         printf("Cima, Direita\n");
+    }
+    
+    printf("\n --MOVIMENTO DO CAVALO-- \n");
+
+    while (c--)
+    {
+        for (int c = 0; c < 2; c++) 
+        {
+            printf("Baixo\n"); 
+        }
+        printf("Esquerda\n");
     }
     
 
